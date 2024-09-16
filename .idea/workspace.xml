@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d8472ea-2894-4139-9b8c-4bf725ce304a" name="Changes" comment="added files to project 2">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="4d8472ea-2894-4139-9b8c-4bf725ce304a" name="Changes" comment="added  eslint and prettier">
+      <change afterPath="$PROJECT_DIR$/src/utils/css-types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/web-cmp-utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +53,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
     "ts.external.directory.path": "C:\\Projects\\checklist\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -62,6 +62,23 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\checklist" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -82,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726513678770</updated>
       <workItem from="1726513679932" duration="829000" />
-      <workItem from="1726514544977" duration="201000" />
+      <workItem from="1726514544977" duration="365000" />
     </task>
     <task id="LOCAL‎-00001" summary="added files to project">
       <option name="closed" value="true" />
@@ -100,7 +117,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1726514577232</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎-00003" summary="added  eslint and prettier">
+      <option name="closed" value="true" />
+      <created>1726514759360</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL‎-00003" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1726514759360</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +135,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added files to project" />
     <MESSAGE value="added files to project 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added files to project 2" />
+    <MESSAGE value="added  eslint and prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="added  eslint and prettier" />
   </component>
 </project>
